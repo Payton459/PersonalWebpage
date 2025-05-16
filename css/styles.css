@@ -1,0 +1,61 @@
+/* === Custom Styles === */
+
+/* Header Styles */
+header h1 {
+  font-size: 2rem;
+}
+header p {
+  font-size: 1.2rem;
+}
+
+/* Typography */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+/* Section spacing */
+main section {
+  margin-bottom: 3rem;
+}
+
+/* Skills List */
+ul {
+  padding-left: 1.2rem;
+  list-style: square;
+}
+
+/* === Profile Image === */
+.profile-img {
+  max-width: 280px;       /* Larger size on mobile */
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .profile-img {
+    max-width: 340px;     /* Bigger on tablets and up */
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile-img {
+    max-width: 400px;     /* Even bigger on desktops */
+  }
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 1.1rem;
+  }
+}
