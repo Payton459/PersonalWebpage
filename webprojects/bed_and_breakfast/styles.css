@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(155, 96, 94);
+    text-align: center;
+    color: #e9e1e1;
+    font-size: x-large;
+}
+h1 {
+    text-align: center;
+}
+#TopOfPage {
+    background-color: #c59178;
+    padding: 20px;
+    text-align: center;
+    color: #faf3f3;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+nav {
+    background-color: #4e3e35;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #e9e1e1;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
